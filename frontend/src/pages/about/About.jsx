@@ -15,7 +15,7 @@ const About = () => {
         <div className='absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-slate-900'></div>
         <div className='absolute bottom-8 left-8 md:bottom-12 md:left-12 text-white'>
           <h3 className='text-2xl md:text-4xl font-bold mb-2 md:mb-3'>
-            ABC Company
+            DalGom Company
           </h3>
           <p className='text-base md:text-xl font-light'>
             혁신과 신뢰로 글로벌 시장을 선도합니다.
@@ -29,11 +29,11 @@ const About = () => {
         </h2>
         <div className='text-lg leading-relaxed text-gray-600 space-y-6'>
           <p>
-            ABC Company는 1995년 설립 이래로 전력 변환 장치 및 전력 제어 시스템
-            분야에서 혁신적인 솔루션을 제공해온 선도적인 전기 기업입니다. 고효율
-            변압기, 전력변환장치(PCS), 무정전전원장치(UPS) 등의 핵심 제품을 개발
-            및 생산하며, 신재생 에너지 설비와 스마트 그리드 시스템 구축에도
-            앞장서고 있습니다.
+            DalGom Company는 1995년 설립 이래로 전력 변환 장치 및 전력 제어
+            시스템 분야에서 혁신적인 솔루션을 제공해온 선도적인 전기 기업입니다.
+            고효율 변압기, 전력변환장치(PCS), 무정전전원장치(UPS) 등의 핵심
+            제품을 개발 및 생산하며, 신재생 에너지 설비와 스마트 그리드 시스템
+            구축에도 앞장서고 있습니다.
           </p>
           <p>
             특히 친환경 에너지 솔루션 분야에서 탁월한 기술력을 인정받아, 국내외

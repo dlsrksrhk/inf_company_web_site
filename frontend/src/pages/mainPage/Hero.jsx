@@ -1,4 +1,3 @@
-import React from 'react'
 import HeroImage from '../../assets/Image1.jpg'
 
 const Hero = () => {
@@ -7,7 +6,7 @@ const Hero = () => {
       <div className='container mx-auto px-4 sm:px-6 lg:px-8 py-28 lg:py-36'>
         <div className='flex flex-col lg:flex-row items-center justify-between gap-12'>
           <div className='flex-1 text-center lg:text-left'>
-            <h1 className='text-3xl sm:text-4xl 2xl:text-7xl font-bold text-gray-900 leading-tight mb-6 lg:mb-12'>
+            <h1 className='text-3xl sm:text-4xl 2xl:text-6xl font-bold text-gray-900 leading-tight mb-6 lg:mb-12'>
               태양광 설비 전문가와 함께
               <span className='block text-blue-600 mt-2 lg:mt-6'>
                 미래를 만들어갑니다.

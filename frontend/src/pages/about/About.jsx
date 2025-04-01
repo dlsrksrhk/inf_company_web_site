@@ -70,39 +70,33 @@ const About = () => {
         </p>
       </div>
 
-      <div className='mb-24'>
-        <h2 className='text-4xl font-bold mb-12 text-slate-800 text-center'>
+      <div className='py-16 px-4'>
+        <h2 className='text-3xl sm:text-4xl font-bold text-center text-slate-800 mb-16'>
           회사 연혁
         </h2>
 
-        <div className='py-16 px-4'>
-          <h2 className='text-3xl sm:text-4xl font-bold text-center text-slate-800 mb-16'>
-            회사 연혁
-          </h2>
-
-          <div className='relative border-l border-gray-300 max-w-3xl mx-auto'>
-            {history.map((item, i) => (
-              <>
-                <span className='absolute flex items-center justify-center w-4 h-4 sm:w-5 sm:h-5 bg-indigo-600 rounded-full -left-2.5 ring-4 ring-white'></span>
-                <motion.div
-                  key={i}
-                  initial={{ opacity: 0, y: 40 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true }}
-                  transition={{ duration: 0.6, delay: i * 0.1 }}
-                  className='mb-10 ml-6'>
-                  <div className='bg-white rounded-xl shadow-md border border-gray-100 p-5 sm:p-6'>
-                    <h3 className='text-indigo-600 text-lg sm:text-xl font-semibold'>
-                      {item.year}
-                    </h3>
-                    <p className='text-gray-700 mt-1 text-base sm:text-lg'>
-                      {item.event}
-                    </p>
-                  </div>
-                </motion.div>
-              </>
-            ))}
-          </div>
+        <div className='relative border-l border-gray-300 max-w-3xl mx-auto'>
+          {history.map((item, i) => (
+            <>
+              <span className='absolute flex items-center justify-center w-4 h-4 sm:w-5 sm:h-5 bg-indigo-600 rounded-full -left-2.5 ring-4 ring-white'></span>
+              <motion.div
+                key={i}
+                initial={{ opacity: 0, y: 40 }}
+                whileInView={{ opacity: 1, y: 0 }}
+                viewport={{ once: true }}
+                transition={{ duration: 0.6, delay: i * 0.1 }}
+                className='mb-10 ml-6'>
+                <div className='bg-white rounded-xl shadow-md border border-gray-100 p-5 sm:p-6'>
+                  <h3 className='text-indigo-600 text-lg sm:text-xl font-semibold'>
+                    {item.year}
+                  </h3>
+                  <p className='text-gray-700 mt-1 text-base sm:text-lg'>
+                    {item.event}
+                  </p>
+                </div>
+              </motion.div>
+            </>
+          ))}
         </div>
       </div>
     </div>

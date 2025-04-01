@@ -1,7 +1,15 @@
-import React from 'react'
+import Contact from './Contact'
+import Forum from './Forum'
+import Hero from './Hero'
 
 const MainPage = () => {
-  return <div className='py-32'>MainPage</div>
+  return (
+    <div>
+      <Hero />
+      <Forum />
+      <Contact />
+    </div>
+  )
 }
 
 export default MainPage
